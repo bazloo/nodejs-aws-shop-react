@@ -35,7 +35,7 @@ export default function Header() {
                 underline="none"
                 to="/"
             >
-              USELESS THINGS STORE
+              THE VIRTUES STORE
             </Link>
           </div>
         </Typography>
