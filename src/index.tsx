@@ -32,7 +32,7 @@ axios.interceptors.response.use(
         }
 
         if (error.response.status === 403) {
-            toast.error('401 Forbidden: token is not valid');
+            toast.error('403 Forbidden: token is not valid');
         }
         return Promise.reject(error);
     }
